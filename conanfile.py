@@ -13,7 +13,7 @@ class AlgoChallengeSumOfTwoConan(ConanFile):
     options = {"shared": [True, False], "fPIC": [True, False]}
     default_options = {"shared": False, "fPIC": True}
     generators = "cmake"
-    requires = ["range-v3/0.11.0", "fmt/8.0.0"]
+    requires = ["range-v3/0.11.0", "fmt/8.0.0", "gtest/1.10.0"]
 
     def config_options(self):
         if self.settings.os == "Windows":
