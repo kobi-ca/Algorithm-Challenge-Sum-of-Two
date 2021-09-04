@@ -1,5 +1,7 @@
 https://medium.com/code-85/algorithm-challenge-sum-of-two-3de11858799e
 
+Given two lists of integers, is there a set of numbers — one from each list — whose sum is equal to a specified value?
+
 cat ~/.conan/profiles/default-abi11\ 
 [settings]\
 os=Linux\
